@@ -11,7 +11,7 @@ struct ShowcaseView: View {
     @Environment(Coordinator.self) var coordinator
     @State private var viewManager = ShowcaseManager()
     
-    private let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 3)
+    private let columns: [GridItem] = Array(repeating: .init(.flexible(), spacing: 20), count: 3)
     
     var body: some View {
         NavigationStack {

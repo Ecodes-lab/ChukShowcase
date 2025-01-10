@@ -11,7 +11,7 @@ struct CodeBlockView: View {
     let code: String
     
     // New: Line numbers and syntax highlighting colors
-    private let lineNumberWidth: CGFloat = 40
+    private let lineNumberWidth: CGFloat = 50
     private let syntaxColors: [String: Color] = [
         "class": .purple,
         "struct": .purple,

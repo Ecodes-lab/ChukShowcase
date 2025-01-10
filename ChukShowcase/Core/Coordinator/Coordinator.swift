@@ -13,7 +13,7 @@ enum Page: Hashable {
 }
 
 enum Sheet: Hashable, Identifiable {
-    case audio
+    case calendar, audio
     
     var id: Int {
         self.hashValue
@@ -94,6 +94,8 @@ enum HomeTab {
     @ViewBuilder
     func build(sheet: Sheet) -> some View {
         switch sheet {
+        case .calendar:
+            CalendarView()
         case .audio:
             AudioDemoView()
         }

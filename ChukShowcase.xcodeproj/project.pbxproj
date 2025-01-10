@@ -19,6 +19,12 @@
 		BC78C9322D3071BA00391561 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9312D3071AD00391561 /* Coordinator.swift */; };
 		BC78C9342D3072CA00391561 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9332D3072CA00391561 /* CoordinatorView.swift */; };
 		BC78C9382D30736A00391561 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9372D30736A00391561 /* ColorManager.swift */; };
+		BC839FB22D3175DE00D92776 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FB12D3175DE00D92776 /* CalendarHelper.swift */; };
+		BC839FB52D31761100D92776 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FB42D31761100D92776 /* DateValue.swift */; };
+		BC839FB82D31769100D92776 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FB72D31768900D92776 /* Date+Ext.swift */; };
+		BC839FBA2D31770E00D92776 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FB92D31770E00D92776 /* CalendarView.swift */; };
+		BC839FBC2D31776300D92776 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FBB2D31775700D92776 /* CalendarViewModel.swift */; };
+		BC839FBE2D31812400D92776 /* CalendarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FBD2D31811600D92776 /* CalendarCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		BC78C9312D3071AD00391561 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BC78C9332D3072CA00391561 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 		BC78C9372D30736A00391561 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		BC839FB12D3175DE00D92776 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		BC839FB42D31761100D92776 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		BC839FB72D31768900D92776 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		BC839FB92D31770E00D92776 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		BC839FBB2D31775700D92776 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		BC839FBD2D31811600D92776 /* CalendarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,7 @@
 		BC78C9182D306E5700391561 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BC839FAD2D31751400D92776 /* Calendar */,
 				BC78C9162D306E5700391561 /* Audio */,
 				BC78C9172D306E5700391561 /* ShowcaseView.swift */,
 			);
@@ -168,6 +181,7 @@
 		BC78C92B2D306F3E00391561 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BC839FB62D31763B00D92776 /* Extensions */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -211,6 +225,58 @@
 				BC78C9372D30736A00391561 /* ColorManager.swift */,
 			);
 			path = Styling;
+			sourceTree = "<group>";
+		};
+		BC839FAD2D31751400D92776 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FB32D3175EC00D92776 /* Models */,
+				BC839FAF2D31753300D92776 /* ViewModels */,
+				BC839FAE2D31752900D92776 /* Views */,
+				BC839FB02D31754A00D92776 /* Utils */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		BC839FAE2D31752900D92776 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FBD2D31811600D92776 /* CalendarCodeView.swift */,
+				BC839FB92D31770E00D92776 /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC839FAF2D31753300D92776 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FBB2D31775700D92776 /* CalendarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BC839FB02D31754A00D92776 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FB12D3175DE00D92776 /* CalendarHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC839FB32D3175EC00D92776 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FB42D31761100D92776 /* DateValue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC839FB62D31763B00D92776 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FB72D31768900D92776 /* Date+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,13 +353,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC78C9322D3071BA00391561 /* Coordinator.swift in Sources */,
+				BC839FBE2D31812400D92776 /* CalendarCodeView.swift in Sources */,
 				BC78C9382D30736A00391561 /* ColorManager.swift in Sources */,
+				BC839FB82D31769100D92776 /* Date+Ext.swift in Sources */,
 				BC78C9342D3072CA00391561 /* CoordinatorView.swift in Sources */,
 				BC78C9302D3070A500391561 /* CodeBlockView.swift in Sources */,
 				BC78C91F2D306E5700391561 /* ChukShowcaseApp.swift in Sources */,
 				BC78C9202D306E5700391561 /* AudioPlayerService.swift in Sources */,
 				BC78C92A2D306EAD00391561 /* ShowcaseManager.swift in Sources */,
+				BC839FBA2D31770E00D92776 /* CalendarView.swift in Sources */,
+				BC839FBC2D31776300D92776 /* CalendarViewModel.swift in Sources */,
+				BC839FB22D3175DE00D92776 /* CalendarHelper.swift in Sources */,
 				BC78C9212D306E5700391561 /* AudioCodeView.swift in Sources */,
+				BC839FB52D31761100D92776 /* DateValue.swift in Sources */,
 				BC78C9222D306E5700391561 /* AudioDemoView.swift in Sources */,
 				BC78C9232D306E5700391561 /* ShowcaseView.swift in Sources */,
 			);
