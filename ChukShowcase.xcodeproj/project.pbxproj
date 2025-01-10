@@ -6,17 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		BC78C8C22D3063DB00391561 /* AppleFrameShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		BC78C91F2D306E5700391561 /* ChukShowcaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C90E2D306E5700391561 /* ChukShowcaseApp.swift */; };
+		BC78C9202D306E5700391561 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9112D306E5700391561 /* AudioPlayerService.swift */; };
+		BC78C9212D306E5700391561 /* AudioCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9132D306E5700391561 /* AudioCodeView.swift */; };
+		BC78C9222D306E5700391561 /* AudioDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9142D306E5700391561 /* AudioDemoView.swift */; };
+		BC78C9232D306E5700391561 /* ShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9172D306E5700391561 /* ShowcaseView.swift */; };
+		BC78C9242D306E5700391561 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC78C9192D306E5700391561 /* Preview Assets.xcassets */; };
+		BC78C9252D306E5700391561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC78C91B2D306E5700391561 /* Assets.xcassets */; };
+		BC78C92A2D306EAD00391561 /* ShowcaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9292D306EAD00391561 /* ShowcaseManager.swift */; };
+		BC78C9302D3070A500391561 /* CodeBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C92F2D3070A500391561 /* CodeBlockView.swift */; };
+		BC78C9322D3071BA00391561 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9312D3071AD00391561 /* Coordinator.swift */; };
+		BC78C9342D3072CA00391561 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9332D3072CA00391561 /* CoordinatorView.swift */; };
+		BC78C9382D30736A00391561 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78C9372D30736A00391561 /* ColorManager.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BC78C8C42D3063DB00391561 /* AppleFrameShowcase */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AppleFrameShowcase;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		BC78C8C22D3063DB00391561 /* ChukShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChukShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC78C90E2D306E5700391561 /* ChukShowcaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChukShowcaseApp.swift; sourceTree = "<group>"; };
+		BC78C9112D306E5700391561 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		BC78C9132D306E5700391561 /* AudioCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCodeView.swift; sourceTree = "<group>"; };
+		BC78C9142D306E5700391561 /* AudioDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDemoView.swift; sourceTree = "<group>"; };
+		BC78C9172D306E5700391561 /* ShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseView.swift; sourceTree = "<group>"; };
+		BC78C9192D306E5700391561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC78C91B2D306E5700391561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC78C91D2D306E5700391561 /* ChukShowcase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChukShowcase.entitlements; sourceTree = "<group>"; };
+		BC78C9292D306EAD00391561 /* ShowcaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseManager.swift; sourceTree = "<group>"; };
+		BC78C92F2D3070A500391561 /* CodeBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockView.swift; sourceTree = "<group>"; };
+		BC78C9312D3071AD00391561 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BC78C9332D3072CA00391561 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		BC78C9372D30736A00391561 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BC78C8BF2D3063DB00391561 /* Frameworks */ = {
@@ -32,7 +52,7 @@
 		BC78C8B92D3063DB00391561 = {
 			isa = PBXGroup;
 			children = (
-				BC78C8C42D3063DB00391561 /* AppleFrameShowcase */,
+				BC78C91E2D306E5700391561 /* ChukShowcase */,
 				BC78C8C32D3063DB00391561 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,17 +60,165 @@
 		BC78C8C32D3063DB00391561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC78C8C22D3063DB00391561 /* AppleFrameShowcase.app */,
+				BC78C8C22D3063DB00391561 /* ChukShowcase.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC78C90F2D306E5700391561 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C90E2D306E5700391561 /* ChukShowcaseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC78C9122D306E5700391561 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9112D306E5700391561 /* AudioPlayerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC78C9152D306E5700391561 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9132D306E5700391561 /* AudioCodeView.swift */,
+				BC78C9142D306E5700391561 /* AudioDemoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC78C9162D306E5700391561 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9122D306E5700391561 /* Services */,
+				BC78C9152D306E5700391561 /* Views */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BC78C9182D306E5700391561 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9162D306E5700391561 /* Audio */,
+				BC78C9172D306E5700391561 /* ShowcaseView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BC78C91A2D306E5700391561 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9192D306E5700391561 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC78C91C2D306E5700391561 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C91B2D306E5700391561 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC78C91E2D306E5700391561 /* ChukShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C90F2D306E5700391561 /* App */,
+				BC78C9262D306E6500391561 /* Core */,
+				BC78C9182D306E5700391561 /* Features */,
+				BC78C91C2D306E5700391561 /* Resources */,
+				BC78C91A2D306E5700391561 /* Preview Content */,
+				BC78C91D2D306E5700391561 /* ChukShowcase.entitlements */,
+			);
+			path = ChukShowcase;
+			sourceTree = "<group>";
+		};
+		BC78C9262D306E6500391561 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9272D306E7900391561 /* Coordinator */,
+				BC78C9282D306E8700391561 /* Manager */,
+				BC78C92C2D306F4900391561 /* UI */,
+				BC78C92B2D306F3E00391561 /* Common */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BC78C9272D306E7900391561 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9332D3072CA00391561 /* CoordinatorView.swift */,
+				BC78C9312D3071AD00391561 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BC78C9282D306E8700391561 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9292D306EAD00391561 /* ShowcaseManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BC78C92B2D306F3E00391561 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC78C92C2D306F4900391561 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9352D30735100391561 /* Theme */,
+				BC78C92D2D306F5500391561 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BC78C92D2D306F5500391561 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C92E2D30709200391561 /* CodeBlock */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC78C92E2D30709200391561 /* CodeBlock */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C92F2D3070A500391561 /* CodeBlockView.swift */,
+			);
+			path = CodeBlock;
+			sourceTree = "<group>";
+		};
+		BC78C9352D30735100391561 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9362D30735B00391561 /* Styling */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BC78C9362D30735B00391561 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				BC78C9372D30736A00391561 /* ColorManager.swift */,
+			);
+			path = Styling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC78C8C12D3063DB00391561 /* AppleFrameShowcase */ = {
+		BC78C8C12D3063DB00391561 /* ChukShowcase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC78C8D12D3063DE00391561 /* Build configuration list for PBXNativeTarget "AppleFrameShowcase" */;
+			buildConfigurationList = BC78C8D12D3063DE00391561 /* Build configuration list for PBXNativeTarget "ChukShowcase" */;
 			buildPhases = (
 				BC78C8BE2D3063DB00391561 /* Sources */,
 				BC78C8BF2D3063DB00391561 /* Frameworks */,
@@ -60,14 +228,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BC78C8C42D3063DB00391561 /* AppleFrameShowcase */,
-			);
-			name = AppleFrameShowcase;
+			name = ChukShowcase;
 			packageProductDependencies = (
 			);
 			productName = AppleFrameShowcase;
-			productReference = BC78C8C22D3063DB00391561 /* AppleFrameShowcase.app */;
+			productReference = BC78C8C22D3063DB00391561 /* ChukShowcase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC78C8BD2D3063DB00391561 /* Build configuration list for PBXProject "AppleFrameShowcase" */;
+			buildConfigurationList = BC78C8BD2D3063DB00391561 /* Build configuration list for PBXProject "ChukShowcase" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +264,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC78C8C12D3063DB00391561 /* AppleFrameShowcase */,
+				BC78C8C12D3063DB00391561 /* ChukShowcase */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC78C9242D306E5700391561 /* Preview Assets.xcassets in Resources */,
+				BC78C9252D306E5700391561 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC78C9322D3071BA00391561 /* Coordinator.swift in Sources */,
+				BC78C9382D30736A00391561 /* ColorManager.swift in Sources */,
+				BC78C9342D3072CA00391561 /* CoordinatorView.swift in Sources */,
+				BC78C9302D3070A500391561 /* CodeBlockView.swift in Sources */,
+				BC78C91F2D306E5700391561 /* ChukShowcaseApp.swift in Sources */,
+				BC78C9202D306E5700391561 /* AudioPlayerService.swift in Sources */,
+				BC78C92A2D306EAD00391561 /* ShowcaseManager.swift in Sources */,
+				BC78C9212D306E5700391561 /* AudioCodeView.swift in Sources */,
+				BC78C9222D306E5700391561 /* AudioDemoView.swift in Sources */,
+				BC78C9232D306E5700391561 /* ShowcaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AppleFrameShowcase/AppleFrameShowcase.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ChukShowcase/ChukShowcase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleFrameShowcase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChukShowcase/Preview Content\"";
 				DEVELOPMENT_TEAM = P67PNAMVCQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -267,10 +444,11 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecodes.AppleFrameShowcase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecodes.ChukShowcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -283,10 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AppleFrameShowcase/AppleFrameShowcase.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ChukShowcase/ChukShowcase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleFrameShowcase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChukShowcase/Preview Content\"";
 				DEVELOPMENT_TEAM = P67PNAMVCQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -306,10 +484,11 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecodes.AppleFrameShowcase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecodes.ChukShowcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -320,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC78C8BD2D3063DB00391561 /* Build configuration list for PBXProject "AppleFrameShowcase" */ = {
+		BC78C8BD2D3063DB00391561 /* Build configuration list for PBXProject "ChukShowcase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC78C8CF2D3063DE00391561 /* Debug */,
@@ -329,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC78C8D12D3063DE00391561 /* Build configuration list for PBXNativeTarget "AppleFrameShowcase" */ = {
+		BC78C8D12D3063DE00391561 /* Build configuration list for PBXNativeTarget "ChukShowcase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC78C8D22D3063DE00391561 /* Debug */,
