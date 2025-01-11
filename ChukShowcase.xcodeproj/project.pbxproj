@@ -25,6 +25,15 @@
 		BC839FBA2D31770E00D92776 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FB92D31770E00D92776 /* CalendarView.swift */; };
 		BC839FBC2D31776300D92776 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FBB2D31775700D92776 /* CalendarViewModel.swift */; };
 		BC839FBE2D31812400D92776 /* CalendarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC839FBD2D31811600D92776 /* CalendarCodeView.swift */; };
+		BCCC5F552D32C79000BFE53D /* CameraFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F542D32C79000BFE53D /* CameraFeature.swift */; };
+		BCCC5F572D32C7B500BFE53D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F562D32C7B500BFE53D /* CameraView.swift */; };
+		BCCC5F592D32C7CE00BFE53D /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F582D32C7CE00BFE53D /* CameraSession.swift */; };
+		BCCC5F5B2D32C7F000BFE53D /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F5A2D32C7F000BFE53D /* CameraPreviewView.swift */; };
+		BCCC5F5D2D32C85B00BFE53D /* StringTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F5C2D32C85B00BFE53D /* StringTracker.swift */; };
+		BCCC5F5F2D32C8A000BFE53D /* Character+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F5E2D32C89600BFE53D /* Character+Ext.swift */; };
+		BCCC5F612D32C8EC00BFE53D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F602D32C8E400BFE53D /* String+Ext.swift */; };
+		BCCC5F682D32CCD700BFE53D /* CutoutOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F672D32CCD700BFE53D /* CutoutOverlayView.swift */; };
+		BCCC5F6A2D32CFAD00BFE53D /* VNTextRecognizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC5F692D32CF9100BFE53D /* VNTextRecognizerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,15 @@
 		BC839FB92D31770E00D92776 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		BC839FBB2D31775700D92776 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		BC839FBD2D31811600D92776 /* CalendarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCodeView.swift; sourceTree = "<group>"; };
+		BCCC5F542D32C79000BFE53D /* CameraFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFeature.swift; sourceTree = "<group>"; };
+		BCCC5F562D32C7B500BFE53D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		BCCC5F582D32C7CE00BFE53D /* CameraSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
+		BCCC5F5A2D32C7F000BFE53D /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		BCCC5F5C2D32C85B00BFE53D /* StringTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTracker.swift; sourceTree = "<group>"; };
+		BCCC5F5E2D32C89600BFE53D /* Character+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Ext.swift"; sourceTree = "<group>"; };
+		BCCC5F602D32C8E400BFE53D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		BCCC5F672D32CCD700BFE53D /* CutoutOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutoutOverlayView.swift; sourceTree = "<group>"; };
+		BCCC5F692D32CF9100BFE53D /* VNTextRecognizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNTextRecognizerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +132,7 @@
 		BC78C9182D306E5700391561 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BCCC5F522D32C75600BFE53D /* VNTextRecognizer */,
 				BC839FAD2D31751400D92776 /* Calendar */,
 				BC78C9162D306E5700391561 /* Audio */,
 				BC78C9172D306E5700391561 /* ShowcaseView.swift */,
@@ -233,7 +252,7 @@
 				BC839FB32D3175EC00D92776 /* Models */,
 				BC839FAF2D31753300D92776 /* ViewModels */,
 				BC839FAE2D31752900D92776 /* Views */,
-				BC839FB02D31754A00D92776 /* Utils */,
+				BCCC5F632D32CB6C00BFE53D /* Common */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -277,6 +296,78 @@
 				BC839FB72D31768900D92776 /* Date+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCCC5F522D32C75600BFE53D /* VNTextRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F662D32CC5F00BFE53D /* Managers */,
+				BCCC5F532D32C77400BFE53D /* Views */,
+				BCCC5F622D32CB5200BFE53D /* Common */,
+			);
+			path = VNTextRecognizer;
+			sourceTree = "<group>";
+		};
+		BCCC5F532D32C77400BFE53D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F6B2D32D00800BFE53D /* CameraViews */,
+				BCCC5F692D32CF9100BFE53D /* VNTextRecognizerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCCC5F622D32CB5200BFE53D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F642D32CB9400BFE53D /* Extensions */,
+				BCCC5F652D32CBA000BFE53D /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BCCC5F632D32CB6C00BFE53D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BC839FB02D31754A00D92776 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BCCC5F642D32CB9400BFE53D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F602D32C8E400BFE53D /* String+Ext.swift */,
+				BCCC5F5E2D32C89600BFE53D /* Character+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCCC5F652D32CBA000BFE53D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F5C2D32C85B00BFE53D /* StringTracker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BCCC5F662D32CC5F00BFE53D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F542D32C79000BFE53D /* CameraFeature.swift */,
+				BCCC5F582D32C7CE00BFE53D /* CameraSession.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BCCC5F6B2D32D00800BFE53D /* CameraViews */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC5F672D32CCD700BFE53D /* CutoutOverlayView.swift */,
+				BCCC5F562D32C7B500BFE53D /* CameraView.swift */,
+				BCCC5F5A2D32C7F000BFE53D /* CameraPreviewView.swift */,
+			);
+			path = CameraViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,16 +444,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC78C9322D3071BA00391561 /* Coordinator.swift in Sources */,
+				BCCC5F5D2D32C85B00BFE53D /* StringTracker.swift in Sources */,
 				BC839FBE2D31812400D92776 /* CalendarCodeView.swift in Sources */,
 				BC78C9382D30736A00391561 /* ColorManager.swift in Sources */,
+				BCCC5F572D32C7B500BFE53D /* CameraView.swift in Sources */,
+				BCCC5F552D32C79000BFE53D /* CameraFeature.swift in Sources */,
+				BCCC5F592D32C7CE00BFE53D /* CameraSession.swift in Sources */,
+				BCCC5F612D32C8EC00BFE53D /* String+Ext.swift in Sources */,
+				BCCC5F5F2D32C8A000BFE53D /* Character+Ext.swift in Sources */,
 				BC839FB82D31769100D92776 /* Date+Ext.swift in Sources */,
 				BC78C9342D3072CA00391561 /* CoordinatorView.swift in Sources */,
+				BCCC5F682D32CCD700BFE53D /* CutoutOverlayView.swift in Sources */,
 				BC78C9302D3070A500391561 /* CodeBlockView.swift in Sources */,
 				BC78C91F2D306E5700391561 /* ChukShowcaseApp.swift in Sources */,
 				BC78C9202D306E5700391561 /* AudioPlayerService.swift in Sources */,
 				BC78C92A2D306EAD00391561 /* ShowcaseManager.swift in Sources */,
+				BCCC5F5B2D32C7F000BFE53D /* CameraPreviewView.swift in Sources */,
 				BC839FBA2D31770E00D92776 /* CalendarView.swift in Sources */,
 				BC839FBC2D31776300D92776 /* CalendarViewModel.swift in Sources */,
+				BCCC5F6A2D32CFAD00BFE53D /* VNTextRecognizerView.swift in Sources */,
 				BC839FB22D3175DE00D92776 /* CalendarHelper.swift in Sources */,
 				BC78C9212D306E5700391561 /* AudioCodeView.swift in Sources */,
 				BC839FB52D31761100D92776 /* DateValue.swift in Sources */,
@@ -501,6 +601,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera to take photos";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -511,7 +612,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -541,6 +642,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera to take photos";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -551,7 +653,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;

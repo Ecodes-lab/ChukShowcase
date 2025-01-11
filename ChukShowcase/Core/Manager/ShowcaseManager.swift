@@ -31,15 +31,21 @@ class ShowcaseManager {
     var showcaseList: [Showcase] = [
         Showcase(
             name: "Calendar",
-            description: "Work with audiovisual assets, control device cameras, process audio, and configure system audio interactions.",
+            description: "",
             imageName: "waveform",
             coverType: .calendar
         ),
         Showcase(
             name: "Audio",
-            description: "Work with audiovisual assets, control device cameras, process audio, and configure system audio interactions.",
+            description: "",
             imageName: "waveform",
             coverType: .audio
+        ),
+        Showcase(
+            name: "Text Recognizer",
+            description: "",
+            imageName: "waveform",
+            coverType: .vnTextRecognizer
         ),
     ]
 }

@@ -13,7 +13,7 @@ enum Page: Hashable {
 }
 
 enum Sheet: Hashable, Identifiable {
-    case calendar, audio
+    case calendar, audio, vnTextRecognizer
     
     var id: Int {
         self.hashValue
@@ -98,6 +98,8 @@ enum HomeTab {
             CalendarView()
         case .audio:
             AudioDemoView()
+        case .vnTextRecognizer:
+            VNTextRecognizerView()
         }
     }
     
