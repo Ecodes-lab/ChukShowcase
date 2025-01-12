@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ChukShowcaseApp: App {
+struct ShowcaseApp: App {
     var body: some Scene {
         WindowGroup {
             CoordinatorView()

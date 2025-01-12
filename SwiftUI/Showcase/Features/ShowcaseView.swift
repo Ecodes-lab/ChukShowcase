@@ -26,7 +26,7 @@ struct ShowcaseView: View {
                 }
                 .padding()
             }
-            .navigationTitle("Chuk Showcase")
+            .navigationTitle("Showcase")
         }
     }
 }
